@@ -125,6 +125,32 @@ body {
     transform: scale(1.05);
 }
 
+.volver-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.volver-button {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: linear-gradient(to right top, #ff758c, #d86be0);
+    color: #fff;
+    border: none;
+    padding: 20px 40px;
+    border-radius: 35px;
+    font-size: 20px;
+    text-decoration: none;
+    transition: background 0.3s;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.volver-button:hover {
+    background: linear-gradient(to right top, #d86be0, #ff758c);
+}
+
+
 
 
 
